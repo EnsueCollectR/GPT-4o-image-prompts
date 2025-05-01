@@ -16,11 +16,20 @@ Example placeholders:
 {file_name}: Business Card.json or Business Card.xml
 ```
 
-Prompt for drawing realistic iphone 'images'
+Prompt for drawing realistic iphone pictures
 
 ```markdown
 An extremely unremarkable iPhone selfie photo with no clear subject or framing—just a careless snapshot.
 The photo has a touch of motion blur, and mildly overexposed from uneven sunlight. 
 The angle is awkward, the composition nonexistent, and the overall effect is aggressively mediocre—like a photo taken by accident while pulling the phone out of a pocket to take the selfie. 
 It's of {Topic}, vertical 9:16 aspect ratio.
+```
+
+Prompt for style following
+
+```markdown
+{images}
+This is "{character}", {describe their details, use hex colors for color matching}
+
+Now generate an image of {character} {task}
 ```
